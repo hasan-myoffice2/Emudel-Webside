@@ -1,0 +1,332 @@
+@import "./variable.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #fff;
+  font-family: "Montserrat Alternates";
+}
+.top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+// Top Header Section Start
+.top-header-section {
+  display: flex;
+  background-color: #031f42;
+  width: 100%;
+  height: 50px;
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .call {
+    display: flex;
+    gap: 0.9rem;
+    i {
+      color: #015abd;
+    }
+    span {
+      color: #fff;
+      font-size: 15px;
+      transition: all 0.4s ease;
+    }
+    span:hover {
+      color: #015abd;
+    }
+  }
+  .register {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    i {
+      color: #015abd;
+      font-size: 20px;
+    }
+    .horizontal {
+      width: 2px;
+      height: 30px;
+      background-color: #647589;
+    }
+  }
+
+  ul {
+    display: flex;
+    gap: 1rem;
+    list-style-type: none;
+
+    i {
+      font-size: 12px;
+      color: #647589;
+      transition: all 0.4s ease;
+    }
+    i:hover {
+      color: #fff;
+    }
+  }
+}
+// Top Header Section End
+
+// Navabr Section Start
+.navbar-section {
+  background-color: rgb(218, 214, 208);
+  padding: 2rem 0;
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo-section {
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 100px;
+        height: 30px;
+      }
+
+      .logo-text {
+        font-size: 24px;
+        font-weight: bold;
+        color: #000;
+      }
+    }
+
+    .category-search {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-grow: 1;
+      margin-left: 2rem;
+
+      .category {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-weight: 500;
+        color: black;
+      }
+
+      span {
+        font-size: 14px;
+      }
+
+      .search-box {
+        display: flex;
+        align-items: center;
+        background-color: #f1f1eb;
+        padding: 15px 12px;
+        border-radius: 6px;
+
+        input {
+          border: none;
+          outline: none;
+          background: transparent;
+          padding: 5px;
+          font-size: 14px;
+        }
+
+        i {
+          font-size: 16px;
+          margin-left: 8px;
+          color: #000;
+          transition: all 0.4s ease;
+          font-weight: bold;
+          font-weight: 700;
+        }
+
+        i:hover {
+          color: red;
+        }
+      }
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 25px;
+      align-items: center;
+
+      a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+        font-size: 14px;
+        position: relative;
+        transition: all 0.4s ease;
+
+        .small-icon {
+          font-size: 10px;
+          margin-left: 3px;
+        }
+      }
+      a:hover {
+        color: red;
+      }
+    }
+  }
+}
+// Navbar Section End
+
+// Hero-Section Start
+.hero-section {
+  background-color: #2f2d51;
+  width: 100%;
+  height: 700px;
+
+  .hero-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+  }
+  img {
+    width: 480px;
+    text-align: end;
+  }
+
+  .hero-header-text {
+    padding: 7rem 0;
+    h1 {
+      padding: 1.5rem 0;
+    }
+    p {
+      padding: 0.5rem 0;
+      font-size: 18px;
+      color: #cfc8c8;
+    }
+  }
+
+  .button-group {
+    padding: 1rem 0;
+    .find-courses,
+    .get-started {
+      padding: 18px 30px;
+      font-size: 16px;
+      color: #fff;
+    }
+    .find-courses {
+      background-color: #f14d5d;
+      border: none;
+      border-radius: 5px;
+      transition: all 0.4s ease;
+    }
+    .find-courses:hover {
+      background-color: #3157aa;
+    }
+    .get-started {
+      background-color: #fff;
+      border: none;
+      color: #f14d5d;
+      border-radius: 5px;
+      transition: all 0.4s ease;
+      margin-left: 5px;
+    }
+    .get-started:hover {
+      background-color: #f14d5d;
+      color: #fff;
+    }
+  }
+}
+// Hero-Section End
+
+// Card Start
+.container {
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem;
+    width: 100%;
+    height: 170px;
+    background-color: #2a3e61;
+    margin: -8% 0;
+    border-radius: 5px;
+    h3 {
+      font-size: 50px;
+    }
+    p {
+      text-align: center;
+      color: #fff;
+    }
+  }
+}
+// Card End
+
+// Popular Courses Section Start
+.popular-pourses {
+  width: 100%;
+  height: 580px;
+  .popular-header {
+    margin-top: 10rem;
+    text-align: center;
+    color: #000;
+    p {
+      padding: 0.2rem;
+    }
+  }
+
+  .popular-ourses-card {
+    padding: 4rem 0;
+    .image-card {
+      width: 370px;
+      height: 430px;
+      border-radius: 8px;
+      overflow-y: hidden;
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    }
+    img {
+      width: 100%;
+      object-fit: cover;
+    }
+    .image-text {
+      padding: 1rem;
+      color: #000;
+    }
+    h3 {
+      padding: 1rem 0;
+    }
+
+    .star-item {
+      display: flex;
+      gap: 0.6rem;
+      p {
+        color: #000;
+        padding: 0.2rem;
+        font-size: 12px;
+      }
+    }
+    .star {
+      display: flex;
+      gap: 7px;
+      color: #FFC78B;
+      font-size: 15px;
+    }
+  }
+
+  .icons-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+    .icons-items {
+      i {
+        font-size: 14px;
+      }
+      span {
+        font-size: 14px;
+        margin-left: 5px;
+      }
+    }
+  }
+}
+// Popular Courses Section End
