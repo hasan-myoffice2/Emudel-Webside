@@ -4,6 +4,11 @@
   margin: auto;
 }
 
+::selection {
+  background-color: #f14d5d;
+  color: #fff;
+}
+
 h1 {
   font-size: 48px;
 }
@@ -267,38 +272,41 @@ body {
 .popular-pourses .popular-header p {
   padding: 0.2rem;
 }
-.popular-pourses .popular-ourses-card {
+.popular-pourses .popular-curses-card {
+  display: flex;
+  justify-content: space-between;
   padding: 4rem 0;
 }
-.popular-pourses .popular-ourses-card .image-card {
-  width: 370px;
-  height: 430px;
+.popular-pourses .popular-curses-card .image-card {
+  width: 365px;
+  height: 434px;
+  position: relative;
+  overflow: hidden;
   border-radius: 8px;
-  overflow-y: hidden;
   background-color: #fff;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.popular-pourses .popular-ourses-card img {
+.popular-pourses .popular-curses-card img {
   width: 100%;
   object-fit: cover;
 }
-.popular-pourses .popular-ourses-card .image-text {
+.popular-pourses .popular-curses-card .image-text {
   padding: 1rem;
   color: #000;
 }
-.popular-pourses .popular-ourses-card h3 {
+.popular-pourses .popular-curses-card h3 {
   padding: 1rem 0;
 }
-.popular-pourses .popular-ourses-card .star-item {
+.popular-pourses .popular-curses-card .star-item {
   display: flex;
   gap: 0.6rem;
 }
-.popular-pourses .popular-ourses-card .star-item p {
+.popular-pourses .popular-curses-card .star-item p {
   color: #000;
   padding: 0.2rem;
   font-size: 12px;
 }
-.popular-pourses .popular-ourses-card .star {
+.popular-pourses .popular-curses-card .star {
   display: flex;
   gap: 7px;
   color: #FFC78B;
@@ -311,10 +319,98 @@ body {
 }
 .popular-pourses .icons-text .icons-items i {
   font-size: 14px;
+  color: #000;
+  font-weight: 700;
 }
 .popular-pourses .icons-text .icons-items span {
   font-size: 14px;
   margin-left: 5px;
+  color: #000;
+  font-weight: 500;
+}
+.popular-pourses .bages {
+  padding: 10px 20px;
+  background-color: #f14d5d;
+  position: absolute;
+  bottom: 44%;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.popular-pourses .hover-card {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(0);
+  transition: all 0.4s ease;
+}
+.popular-pourses .image-card:hover .hover-card {
+  transform: scale(1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.popular-pourses .hover-card {
+  padding: 2rem;
+}
+.popular-pourses .hover-card h2 {
+  color: #f14d5d;
+}
+.popular-pourses .hover-card h3 {
+  color: #000;
+  transition: all 0.4s ease;
+}
+.popular-pourses .hover-card h3:hover {
+  color: #f14d5d;
+}
+.popular-pourses .hover-card p {
+  color: #000;
+  padding: 0.5rem 0;
+}
+.popular-pourses .hover-card .button {
+  padding: 12px 26px;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  background-color: #DDDDDD;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.popular-pourses .hover-card .button:hover {
+  color: #fff;
+  background-color: #f14d5d;
+  cursor: pointer;
+}
+.popular-pourses .hover-card .avator-image {
+  display: flex;
+  padding: 0.5rem 0;
+}
+.popular-pourses .hover-card .avator-image .avator-item {
+  width: 35px;
+  height: 35px;
+}
+.popular-pourses .hover-card .avator-image .avator-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.popular-pourses .hover-card .avator-image .text {
+  color: #000;
+  padding: 0.5rem;
+}
+.popular-pourses .hover-card .avator-image .icons-text {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: -7px;
+  gap: 0.5rem;
+}
+.popular-pourses .hover-card .avator-image .icons-text i {
+  color: #015abd;
+}
+.popular-pourses .hover-card .avator-image .icons-text span {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */

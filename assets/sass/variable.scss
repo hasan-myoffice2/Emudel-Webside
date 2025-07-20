@@ -5,6 +5,11 @@
     margin: auto;
 }
 
+::selection {
+    background-color: #f14d5d;
+    color: #fff;
+}
+
 h1 {
     font-size: 48px;
 }
