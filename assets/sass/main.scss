@@ -286,7 +286,7 @@ body {
       overflow: hidden;
       border-radius: 8px;
       background-color: #fff;
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
     img {
       width: 100%;
@@ -312,7 +312,7 @@ body {
     .star {
       display: flex;
       gap: 7px;
-      color: #FFC78B;
+      color: #ffc78b;
       font-size: 15px;
     }
   }
@@ -358,8 +358,8 @@ body {
 
   .image-card:hover .hover-card {
     transform: scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  } 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
   .hover-card {
     padding: 2rem;
     h2 {
@@ -381,7 +381,7 @@ body {
       margin-top: 1rem;
       border: none;
       outline: none;
-      background-color: #DDDDDD;
+      background-color: #dddddd;
       border-radius: 5px;
       font-size: 20px;
       transition: all 0.4s ease;
@@ -406,7 +406,6 @@ body {
       .text {
         color: #000;
         padding: 0.5rem;
-        
       }
       .icons-text {
         display: flex;
@@ -424,3 +423,83 @@ body {
   }
 }
 // Popular Courses Section End
+
+// Categories Section Start -->
+.categories-section {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background-color: #f5f5f5;
+
+  .header-text {
+    text-align: center;
+    padding: 5rem;
+    h2 {
+      color: #14133b;
+    }
+    p {
+      padding: 0.5rem;
+      color: #1e1f1f;
+    }
+  }
+
+  .full-card {
+    display: flex;
+    justify-content: space-between;
+
+    .card-one:nth-child(2) {
+      background-color: #00C0A6;
+    }
+    .card-one:nth-child(3) {
+      background-color: #1162FC;
+    }
+    .card-one:nth-child(4) {
+      background-color: #8007E6;
+    }
+    .card-one:nth-child(5) {
+      background-color: #FA7919;
+    }
+
+    .card-one {
+      width: 210px;
+      height: 220px;
+      background-color: #dd246e;
+      border-radius: 10px;
+      padding: 2.5rem 0rem;
+      transition: all 0.4s ease;
+
+      .in-box {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+        margin-left: 25%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          width: 50px;
+          height: 50px;
+        }
+      }
+
+      h3 {
+        text-align: center;
+        padding: 1.2rem 0;
+      }
+    }
+
+    .card-one:hover {
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .card-one:hover .in-box {
+      background-color: #dcf1fd;
+    }
+    .card-one:hover h3 {
+      color: #14133b;
+    }
+  }
+}
+
+// Categories Section End -->

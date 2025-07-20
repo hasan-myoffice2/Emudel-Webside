@@ -309,7 +309,7 @@ body {
 .popular-pourses .popular-curses-card .star {
   display: flex;
   gap: 7px;
-  color: #FFC78B;
+  color: #ffc78b;
   font-size: 15px;
 }
 .popular-pourses .icons-text {
@@ -373,7 +373,7 @@ body {
   margin-top: 1rem;
   border: none;
   outline: none;
-  background-color: #DDDDDD;
+  background-color: #dddddd;
   border-radius: 5px;
   font-size: 20px;
   transition: all 0.4s ease;
@@ -411,6 +411,75 @@ body {
 }
 .popular-pourses .hover-card .avator-image .icons-text span {
   color: #000;
+}
+
+.categories-section {
+  margin-top: 5rem;
+  padding: 5rem 0;
+  background-color: #f5f5f5;
+}
+.categories-section .header-text {
+  text-align: center;
+  padding: 5rem;
+}
+.categories-section .header-text h2 {
+  color: #14133b;
+}
+.categories-section .header-text p {
+  padding: 0.5rem;
+  color: #1e1f1f;
+}
+.categories-section .full-card {
+  display: flex;
+  justify-content: space-between;
+}
+.categories-section .full-card .card-one:nth-child(2) {
+  background-color: #00C0A6;
+}
+.categories-section .full-card .card-one:nth-child(3) {
+  background-color: #1162FC;
+}
+.categories-section .full-card .card-one:nth-child(4) {
+  background-color: #8007E6;
+}
+.categories-section .full-card .card-one:nth-child(5) {
+  background-color: #FA7919;
+}
+.categories-section .full-card .card-one {
+  width: 210px;
+  height: 220px;
+  background-color: #dd246e;
+  border-radius: 10px;
+  padding: 2.5rem 0rem;
+  transition: all 0.4s ease;
+}
+.categories-section .full-card .card-one .in-box {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.categories-section .full-card .card-one .in-box img {
+  width: 50px;
+  height: 50px;
+}
+.categories-section .full-card .card-one h3 {
+  text-align: center;
+  padding: 1.2rem 0;
+}
+.categories-section .full-card .card-one:hover {
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.categories-section .full-card .card-one:hover .in-box {
+  background-color: #dcf1fd;
+}
+.categories-section .full-card .card-one:hover h3 {
+  color: #14133b;
 }
 
 /*# sourceMappingURL=style.css.map */
