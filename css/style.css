@@ -22,7 +22,7 @@ h3 {
 }
 
 h5 {
-  font-size: 12pxpx;
+  font-size: 15px;
 }
 
 p {
@@ -36,7 +36,6 @@ p {
 }
 
 body {
-  color: #fff;
   font-family: "Montserrat Alternates";
 }
 
@@ -101,7 +100,7 @@ body {
 }
 
 .navbar-section {
-  background-color: rgb(218, 214, 208);
+  background-color: #fff;
   padding: 2rem 0;
 }
 .navbar-section .navbar {
@@ -202,8 +201,12 @@ body {
 .hero-section .hero-header-text {
   padding: 7rem 0;
 }
+.hero-section .hero-header-text h5 {
+  color: #fff;
+}
 .hero-section .hero-header-text h1 {
   padding: 1.5rem 0;
+  color: #fff;
 }
 .hero-section .hero-header-text p {
   padding: 0.5rem 0;
@@ -254,6 +257,7 @@ body {
 }
 .container .card h3 {
   font-size: 50px;
+  color: #fff;
 }
 .container .card p {
   text-align: center;
@@ -414,13 +418,14 @@ body {
 }
 
 .categories-section {
-  margin-top: 5rem;
-  padding: 5rem 0;
+  margin-top: 3rem;
+  height: 590px;
+  padding: 3rem 0;
   background-color: #f5f5f5;
 }
 .categories-section .header-text {
   text-align: center;
-  padding: 5rem;
+  padding: 4rem;
 }
 .categories-section .header-text h2 {
   color: #14133b;
