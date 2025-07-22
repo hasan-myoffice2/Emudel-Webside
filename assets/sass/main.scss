@@ -507,3 +507,53 @@ body {
   }
 }
 // Categories Section End -->
+
+// Course Details Section Start
+.course-details-section {
+  padding:4rem 0;
+  height: 590px;
+  p {
+    line-height: 1.7rem;
+    color: 16px;
+  }
+
+  .details-items {
+    display: flex;
+    gap: 2rem;
+  }
+  .margin-top {
+    padding: 4rem 2rem;
+  }
+
+  .details {
+    flex-basis: 299px;
+    display: flex;
+    margin: 0.5rem;
+    gap: 1rem;
+  }
+  .box {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #dd246e;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .text {
+    p {
+      padding: 1rem 0;
+    }
+  }
+  .box2 {
+    background-color: #00C0A6;
+  }
+  .box3 {
+    background-color: #1162FC;
+  }
+}
+// Course Details Section End

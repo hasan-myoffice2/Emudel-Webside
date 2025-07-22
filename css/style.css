@@ -15,6 +15,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  color: #14133b;
 }
 
 h3 {
@@ -485,6 +486,49 @@ body {
 }
 .categories-section .full-card .card-one:hover h3 {
   color: #14133b;
+}
+
+.course-details-section {
+  padding: 4rem 0;
+  height: 590px;
+}
+.course-details-section p {
+  line-height: 1.7rem;
+  color: 16px;
+}
+.course-details-section .details-items {
+  display: flex;
+  gap: 2rem;
+}
+.course-details-section .margin-top {
+  padding: 4rem 2rem;
+}
+.course-details-section .details {
+  flex-basis: 299px;
+  display: flex;
+  margin: 0.5rem;
+  gap: 1rem;
+}
+.course-details-section .box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #dd246e;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+}
+.course-details-section .text p {
+  padding: 1rem 0;
+}
+.course-details-section .box2 {
+  background-color: #00C0A6;
+}
+.course-details-section .box3 {
+  background-color: #1162FC;
 }
 
 /*# sourceMappingURL=style.css.map */
