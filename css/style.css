@@ -337,7 +337,7 @@ body {
   padding: 10px 20px;
   background-color: #f14d5d;
   position: absolute;
-  bottom: 44%;
+  bottom: 45%;
   font-size: 20px;
   color: #fff;
   font-weight: 700;
@@ -459,6 +459,9 @@ body {
   padding: 2.5rem 0rem;
   transition: all 0.4s ease;
 }
+.categories-section .full-card .card-one h3 {
+  color: #fff;
+}
 .categories-section .full-card .card-one .in-box {
   width: 100px;
   height: 100px;
@@ -520,6 +523,10 @@ body {
   color: #fff;
   font-size: 20px;
   font-weight: bold;
+  transition: all 0.4s ease;
+}
+.course-details-section .box:hover {
+  transform: scale(1.1);
 }
 .course-details-section .text p {
   padding: 1rem 0;
@@ -529,6 +536,277 @@ body {
 }
 .course-details-section .box3 {
   background-color: #1162FC;
+}
+
+.pricing-card-section {
+  background-color: #F4F7FC;
+}
+.pricing-card-section .popular-pourses {
+  width: 100%;
+  height: 700px;
+}
+.pricing-card-section .popular-pourses .popular-header {
+  margin-top: 5rem;
+  padding: 4rem;
+  text-align: center;
+  color: #000;
+}
+.pricing-card-section .popular-pourses .popular-header p {
+  padding: 0.2rem;
+}
+.pricing-card-section .popular-pourses .popular-curses-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .image-card {
+  width: 270px;
+  height: 411px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: none;
+  transition: all 0.4s ease;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .image-card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pricing-card-section .popular-pourses .popular-curses-card img {
+  width: 100%;
+  object-fit: cover;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .image-text {
+  padding: 1rem;
+  color: #000;
+}
+.pricing-card-section .popular-pourses .popular-curses-card h3 {
+  padding: 1rem 0;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .star-item {
+  display: flex;
+  gap: 0.6rem;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .star-item p {
+  color: #000;
+  padding: 0.2rem;
+  font-size: 12px;
+}
+.pricing-card-section .popular-pourses .popular-curses-card .star {
+  display: flex;
+  gap: 7px;
+  color: #ffc78b;
+  font-size: 15px;
+}
+.pricing-card-section .popular-pourses .icons-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.pricing-card-section .popular-pourses .icons-text .icons-items i {
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+}
+.pricing-card-section .popular-pourses .icons-text .icons-items span {
+  font-size: 14px;
+  margin-left: 5px;
+  color: #000;
+  font-weight: 500;
+}
+.pricing-card-section .popular-pourses .bages {
+  padding: 10px 20px;
+  background-color: #f14d5d;
+  position: absolute;
+  bottom: 57%;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 700;
+}
+.pricing-card-section .popular-pourses .image-card:hover .hover-card {
+  transform: scale(1);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.pricing-card-section .popular-pourses .hover-card {
+  padding: 2rem;
+}
+.pricing-card-section .popular-pourses .hover-card h2 {
+  color: #f14d5d;
+}
+.pricing-card-section .popular-pourses .hover-card h3 {
+  color: #000;
+  transition: all 0.4s ease;
+}
+.pricing-card-section .popular-pourses .hover-card h3:hover {
+  color: #f14d5d;
+}
+.pricing-card-section .popular-pourses .hover-card p {
+  color: #000;
+  padding: 0.5rem 0;
+}
+.pricing-card-section .popular-pourses .hover-card .button {
+  padding: 12px 26px;
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  background-color: #dddddd;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: all 0.4s ease;
+}
+.pricing-card-section .popular-pourses .hover-card .button:hover {
+  color: #fff;
+  background-color: #f14d5d;
+  cursor: pointer;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image {
+  display: flex;
+  padding: 0.5rem 0;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .avator-item {
+  width: 35px;
+  height: 35px;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .avator-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .text {
+  color: #000;
+  padding: 0.5rem;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .icons-text {
+  display: flex;
+  margin-left: 2rem;
+  margin-top: -7px;
+  gap: 0.5rem;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .icons-text i {
+  color: #015abd;
+}
+.pricing-card-section .popular-pourses .hover-card .avator-image .icons-text span {
+  color: #000;
+}
+
+.support-section {
+  margin-top: 4rem;
+  height: 600px;
+}
+.support-section .text-header {
+  text-align: center;
+}
+.support-section .text-header p {
+  line-height: 1.5rem;
+}
+.support-section .support-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
+}
+.support-section .support-items {
+  width: 260px;
+  height: 300px;
+  border-radius: 2px;
+  background-color: #fff;
+  text-align: center;
+  padding: 3rem;
+  transition: all 0.4s ease;
+}
+.support-section .support-items img {
+  width: 50px;
+  height: 50px;
+}
+.support-section .support-items h3 {
+  padding: 1rem 0;
+}
+.support-section .support-items p {
+  line-height: 1.5rem;
+}
+.support-section .support-items:hover {
+  box-shadow: 0 14px 59px rgba(0, 0, 0, 0.12);
+}
+.support-section .top-header-button {
+  margin-top: 4rem;
+}
+.support-section .top-header-button .text-button {
+  display: flex;
+  justify-content: space-between;
+}
+.support-section .top-header-button .text-button .text p {
+  line-height: 2rem;
+}
+.support-section .top-header-button .all-instrutors button {
+  padding: 18px 30px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #F14D5D;
+  border-radius: 5px;
+  color: #F14D5D;
+  font-weight: 300;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-family: "Montserrat Alternates";
+  transition: all 0.4s ease;
+}
+.support-section .top-header-button .all-instrutors button:hover {
+  background-color: #f14d5d;
+  color: #fff;
+}
+.support-section .instrutors-card {
+  margin-top: 6rem;
+  height: 500px;
+}
+.support-section .instrutors-card .card-box {
+  width: 270px;
+  height: 350px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #fff;
+  position: relative;
+  border: 1px solid #ddd;
+  transition: all 0.4s ease;
+}
+.support-section .instrutors-card .hover-baged {
+  position: absolute;
+  width: 125px;
+  height: 36px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-color: #F14D5D;
+  position: absolute;
+  top: 32%;
+  left: 100%;
+  transition: all 0.5s ease;
+}
+.support-section .instrutors-card .card-box:hover .hover-baged {
+  left: 53%;
+}
+.support-section .instrutors-card .card-box:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border: none;
+}
+.support-section .instrutors-card img {
+  width: 80%;
+  margin-top: -50px;
+  border-radius: 50%;
+}
+.support-section .instrutors-card hr {
+  width: 200px;
+  margin: auto;
+}
+.support-section .instrutors-card h3 {
+  padding: 1.5rem;
+}
+.support-section .instrutors-card .icons-text {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-evenly;
+}
+.support-section .instrutors-card .icons-text i {
+  color: #015abd;
 }
 
 /*# sourceMappingURL=style.css.map */
