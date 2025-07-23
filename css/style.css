@@ -440,16 +440,16 @@ body {
   justify-content: space-between;
 }
 .categories-section .full-card .card-one:nth-child(2) {
-  background-color: #00C0A6;
+  background-color: #00c0a6;
 }
 .categories-section .full-card .card-one:nth-child(3) {
-  background-color: #1162FC;
+  background-color: #1162fc;
 }
 .categories-section .full-card .card-one:nth-child(4) {
-  background-color: #8007E6;
+  background-color: #8007e6;
 }
 .categories-section .full-card .card-one:nth-child(5) {
-  background-color: #FA7919;
+  background-color: #fa7919;
 }
 .categories-section .full-card .card-one {
   width: 210px;
@@ -532,14 +532,14 @@ body {
   padding: 1rem 0;
 }
 .course-details-section .box2 {
-  background-color: #00C0A6;
+  background-color: #00c0a6;
 }
 .course-details-section .box3 {
-  background-color: #1162FC;
+  background-color: #1162fc;
 }
 
 .pricing-card-section {
-  background-color: #F4F7FC;
+  background-color: #f4f7fc;
 }
 .pricing-card-section .popular-pourses {
   width: 100%;
@@ -691,7 +691,6 @@ body {
 
 .support-section {
   margin-top: 4rem;
-  height: 600px;
 }
 .support-section .text-header {
   text-align: center;
@@ -742,9 +741,9 @@ body {
   outline: none;
   border: none;
   background-color: transparent;
-  border: 2px solid #F14D5D;
+  border: 2px solid #f14d5d;
   border-radius: 5px;
-  color: #F14D5D;
+  color: #f14d5d;
   font-weight: 300;
   font-weight: bold;
   text-transform: capitalize;
@@ -775,7 +774,7 @@ body {
   height: 36px;
   border-bottom-left-radius: 5px;
   border-top-left-radius: 5px;
-  background-color: #F14D5D;
+  background-color: #f14d5d;
   position: absolute;
   top: 32%;
   left: 100%;
@@ -807,6 +806,50 @@ body {
 }
 .support-section .instrutors-card .icons-text i {
   color: #015abd;
+}
+
+.students-section {
+  background-color: #f4f7fc;
+  height: 800px;
+}
+.students-section .top-bio {
+  text-align: center;
+  padding: 5rem;
+}
+.students-section p {
+  color: #1e1f1f;
+  line-height: 1.7rem;
+}
+.students-section .profile-card {
+  display: flex;
+  gap: 2rem;
+}
+.students-section .card-aria {
+  width: 360px;
+  height: 350px;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+}
+.students-section .card-aria .img-bio {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem 0;
+}
+.students-section .card-aria .img-bio img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.students-section .card-aria .img-bio h3 {
+  color: #343f52;
+}
+.students-section .card-aria .img-bio p {
+  color: #aab0bc;
+  font-weight: bold;
+  font-size: 12px;
+  font-family: "Montserrat Alternates";
 }
 
 /*# sourceMappingURL=style.css.map */

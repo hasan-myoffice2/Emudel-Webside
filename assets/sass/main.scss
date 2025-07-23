@@ -452,16 +452,16 @@ body {
     justify-content: space-between;
 
     .card-one:nth-child(2) {
-      background-color: #00C0A6;
+      background-color: #00c0a6;
     }
     .card-one:nth-child(3) {
-      background-color: #1162FC;
+      background-color: #1162fc;
     }
     .card-one:nth-child(4) {
-      background-color: #8007E6;
+      background-color: #8007e6;
     }
     .card-one:nth-child(5) {
-      background-color: #FA7919;
+      background-color: #fa7919;
     }
 
     .card-one {
@@ -514,7 +514,7 @@ body {
 
 // Course Details Section Start
 .course-details-section {
-  padding:4rem 0;
+  padding: 4rem 0;
   height: 590px;
   p {
     line-height: 1.7rem;
@@ -558,179 +558,178 @@ body {
     }
   }
   .box2 {
-    background-color: #00C0A6;
+    background-color: #00c0a6;
   }
   .box3 {
-    background-color: #1162FC;
+    background-color: #1162fc;
   }
 }
 // Course Details Section End
 
 // Pricing Card Section Start
 .pricing-card-section {
-  background-color: #F4F7FC;
-.popular-pourses {
-  width: 100%;
-  height: 700px;
-  .popular-header {
-    margin-top: 5rem;
-    padding: 4rem;
-    text-align: center;
-    color: #000;
-    p {
-      padding: 0.2rem;
-    }
-  }
-
-  .popular-curses-card {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    .image-card {
-      width: 270px;
-      height: 411px;
-      position: relative;
-      overflow: hidden;
-      border-radius: 8px;
-      background-color: #fff;
-      box-shadow: none;
-      transition: all 0.4s ease;
-    }
-    
-    .image-card:hover {
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    }
-
-    img {
-      width: 100%;
-      object-fit: cover;
-    }
-    .image-text {
-      padding: 1rem;
+  background-color: #f4f7fc;
+  .popular-pourses {
+    width: 100%;
+    height: 700px;
+    .popular-header {
+      margin-top: 5rem;
+      padding: 4rem;
+      text-align: center;
       color: #000;
-    }
-    h3 {
-      padding: 1rem 0;
-    }
-
-    .star-item {
-      display: flex;
-      gap: 0.6rem;
       p {
-        color: #000;
         padding: 0.2rem;
-        font-size: 12px;
       }
     }
-    .star {
-      display: flex;
-      gap: 7px;
-      color: #ffc78b;
-      font-size: 15px;
-    }
-  }
 
-  .icons-text {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem 0;
-    .icons-items {
-      i {
-        font-size: 14px;
-        color: #000;
-        font-weight: 700;
-      }
-      span {
-        font-size: 14px;
-        margin-left: 5px;
-        color: #000;
-        font-weight: 500;
-      }
-    }
-  }
-  .bages {
-    padding: 10px 20px;
-    background-color: #f14d5d;
-    position: absolute;
-    bottom: 57%;
-    font-size: 20px;
-    color: #fff;
-    font-weight: 700;
-  }
-
-  .image-card:hover .hover-card {
-    transform: scale(1);
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  .hover-card {
-    padding: 2rem;
-    h2 {
-      color: #f14d5d;
-    }
-    h3 {
-      color: #000;
-      transition: all 0.4s ease;
-    }
-    h3:hover {
-      color: #f14d5d;
-    }
-    p {
-      color: #000;
-      padding: 0.5rem 0;
-    }
-    .button {
-      padding: 12px 26px;
-      margin-top: 1rem;
-      border: none;
-      outline: none;
-      background-color: #dddddd;
-      border-radius: 5px;
-      font-size: 20px;
-      transition: all 0.4s ease;
-    }
-    .button:hover {
-      color: #fff;
-      background-color: #f14d5d;
-      cursor: pointer;
-    }
-    .avator-image {
+    .popular-curses-card {
       display: flex;
-      padding: 0.5rem 0;
-      .avator-item {
-        width: 35px;
-        height: 35px;
-        img {
-          width: 100%;
-          height: 100%;
-          border-radius: 50%;
+      justify-content: space-between;
+      padding: 1rem 0;
+      .image-card {
+        width: 270px;
+        height: 411px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: none;
+        transition: all 0.4s ease;
+      }
+
+      .image-card:hover {
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+      .image-text {
+        padding: 1rem;
+        color: #000;
+      }
+      h3 {
+        padding: 1rem 0;
+      }
+
+      .star-item {
+        display: flex;
+        gap: 0.6rem;
+        p {
+          color: #000;
+          padding: 0.2rem;
+          font-size: 12px;
         }
       }
-      .text {
-        color: #000;
-        padding: 0.5rem;
-      }
-      .icons-text {
+      .star {
         display: flex;
-        margin-left: 2rem;
-        margin-top: -7px;
-        gap: 0.5rem;
+        gap: 7px;
+        color: #ffc78b;
+        font-size: 15px;
+      }
+    }
+
+    .icons-text {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 0;
+      .icons-items {
         i {
-          color: #015abd;
+          font-size: 14px;
+          color: #000;
+          font-weight: 700;
         }
         span {
+          font-size: 14px;
+          margin-left: 5px;
           color: #000;
+          font-weight: 500;
+        }
+      }
+    }
+    .bages {
+      padding: 10px 20px;
+      background-color: #f14d5d;
+      position: absolute;
+      bottom: 57%;
+      font-size: 20px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .image-card:hover .hover-card {
+      transform: scale(1);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .hover-card {
+      padding: 2rem;
+      h2 {
+        color: #f14d5d;
+      }
+      h3 {
+        color: #000;
+        transition: all 0.4s ease;
+      }
+      h3:hover {
+        color: #f14d5d;
+      }
+      p {
+        color: #000;
+        padding: 0.5rem 0;
+      }
+      .button {
+        padding: 12px 26px;
+        margin-top: 1rem;
+        border: none;
+        outline: none;
+        background-color: #dddddd;
+        border-radius: 5px;
+        font-size: 20px;
+        transition: all 0.4s ease;
+      }
+      .button:hover {
+        color: #fff;
+        background-color: #f14d5d;
+        cursor: pointer;
+      }
+      .avator-image {
+        display: flex;
+        padding: 0.5rem 0;
+        .avator-item {
+          width: 35px;
+          height: 35px;
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+          }
+        }
+        .text {
+          color: #000;
+          padding: 0.5rem;
+        }
+        .icons-text {
+          display: flex;
+          margin-left: 2rem;
+          margin-top: -7px;
+          gap: 0.5rem;
+          i {
+            color: #015abd;
+          }
+          span {
+            color: #000;
+          }
         }
       }
     }
   }
-}
 }
 // Pricing Card Section End
 
 // Support Section Start
 .support-section {
   margin-top: 4rem;
-  height: 600px;
   .text-header {
     text-align: center;
     p {
@@ -742,7 +741,6 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
-    
   }
   .support-items {
     width: 260px;
@@ -766,7 +764,7 @@ body {
     }
   }
   .support-items:hover {
-    box-shadow: 0 14px 59px rgba(0,0,0,.12);
+    box-shadow: 0 14px 59px rgba(0, 0, 0, 0.12);
   }
 
   .top-header-button {
@@ -788,9 +786,9 @@ body {
         outline: none;
         border: none;
         background-color: transparent;
-        border: 2px solid #F14D5D;
+        border: 2px solid #f14d5d;
         border-radius: 5px;
-        color: #F14D5D;
+        color: #f14d5d;
         font-weight: 300;
         font-weight: bold;
         text-transform: capitalize;
@@ -824,7 +822,7 @@ body {
       height: 36px;
       border-bottom-left-radius: 5px;
       border-top-left-radius: 5px;
-      background-color: #F14D5D;
+      background-color: #f14d5d;
       position: absolute;
       top: 32%;
       left: 100%;
@@ -834,9 +832,9 @@ body {
     .card-box:hover .hover-baged {
       left: 53%;
     }
-    
+
     .card-box:hover {
-      box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       border: none;
     }
 
@@ -863,3 +861,56 @@ body {
   }
 }
 // Support Section End
+
+// Student Section Start
+.students-section {
+  background-color: #f4f7fc;
+  height: 800px;
+
+  .top-bio {
+    text-align: center;
+    padding: 5rem;
+  }
+
+  p {
+    color: #1e1f1f;
+    line-height: 1.7rem;
+  }
+
+  .profile-card {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .card-aria {
+    width: 360px;
+    height: 350px;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12);
+
+   
+
+    .img-bio {
+      display: flex;
+      gap: 1rem;
+      padding: 2rem 0;
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+      }
+      h3 {
+        color: #343f52;
+      }
+      p {
+        color: #aab0bc;
+        font-weight: bold;
+        font-size: 12px;
+        font-family: "Montserrat Alternates";
+      }
+    }
+  }
+}
+// Student Section End
