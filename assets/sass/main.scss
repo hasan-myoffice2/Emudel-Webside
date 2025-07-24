@@ -973,6 +973,60 @@ body {
   }
 }
 
+  .footer {
+    margin-top: 7.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    .box {
+      width: 195px;
+      height: 233px;
+      color: #FFF;
+      flex-grow: 1;
+    }
+    .box1 {
+      flex:2;
+      p {
+        padding: 1rem 0;
+        line-height: 1.7rem;
+        color: #ffffffb3;
+        font-size: 14px;
+      }
+      .icons {
+        padding: 2rem 0;
+        display: flex;
+        gap: 1rem;
+        color: #ffffffb3;
+        font-size: 13px;
+        .contact {
+          font-size: 16px;
+        }
+      }
+    }
+    .box2 {
+      flex:1;
+      ul {
+        list-style-type: none;
+        h3 {
+          
+        }
+        li {
+          padding: 0.1rem 0;
+          margin-top: 1rem;
+          font-size: 15px;
+          color: #ffffffb3;
+        }
+      }
+    }
+    .box3 {
+      flex:1;
+    }
+    .box4 {
+      flex:1;
+    }
+    .box5 {
+      flex:1;
+    }
+  }
 }
 
 
