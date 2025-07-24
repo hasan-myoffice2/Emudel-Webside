@@ -987,9 +987,10 @@ body {
       flex:2;
       p {
         padding: 1rem 0;
-        line-height: 1.7rem;
+        line-height: 2rem;
         color: #ffffffb3;
-        font-size: 14px;
+        font-size: 15px;
+        font-family: "Jost", sans-serif;
       }
       .icons {
         padding: 2rem 0;
@@ -1028,7 +1029,38 @@ body {
     }
   }
 }
+// Special Section End
 
+hr {
+  margin-top: -75px;
+  border: none;
+  border: 0.1px solid rgba(224, 220, 220, 0.15);
+}
+
+// Terms Condition Start
+.turms-condition {
+
+  .condition {
+    display: flex;
+    justify-content: space-between;
+    color: #ffffffb3;
+    margin-top: 1.7rem;
+  }
+
+  span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .condition ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    li {
+      font-weight: 500;
+    }
+  }
+}
+// Terms Condition End
 
 
 

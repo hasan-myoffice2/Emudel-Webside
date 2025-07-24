@@ -919,9 +919,10 @@ body {
 }
 .background .footer .box1 p {
   padding: 1rem 0;
-  line-height: 1.7rem;
+  line-height: 2rem;
   color: rgba(255, 255, 255, 0.7019607843);
-  font-size: 14px;
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
 }
 .background .footer .box1 .icons {
   padding: 2rem 0;
@@ -953,6 +954,31 @@ body {
 }
 .background .footer .box5 {
   flex: 1;
+}
+
+hr {
+  margin-top: -75px;
+  border: none;
+  border: 0.1px solid rgba(224, 220, 220, 0.15);
+}
+
+.turms-condition .condition {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.7019607843);
+  margin-top: 1.7rem;
+}
+.turms-condition span {
+  font-size: 14px;
+  font-weight: 400;
+}
+.turms-condition .condition ul {
+  display: flex;
+  list-style-type: none;
+  gap: 2rem;
+}
+.turms-condition .condition ul li {
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=style.css.map */
